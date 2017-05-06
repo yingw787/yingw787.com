@@ -1,0 +1,41 @@
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.centered_container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 300px;
+    height: 66%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Space Mono', monospace;
+    font-size: 4em;
+}
+
+.subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 3em;
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+}
