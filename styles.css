@@ -31,6 +31,10 @@ a {
 }
 
 @media (max-width: 500px) {
+    .centered_container {
+        bottom: 200px;
+    }
+
     .title {
         font-size: 3em;
     }
